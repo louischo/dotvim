@@ -1,3 +1,6 @@
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 set runtimepath+=~/.vim_runtime
 
 source ~/.vim_runtime/vimrcs/basic.vim
